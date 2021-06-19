@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background: url(./images/school.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 90px;
+    width: 100%;
+    background: rgba(0,0,0, 0.4);
+}
+.logo{
+    width: 140px;
+    height: auto;
+    padding: 20px 100px;
+
+
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+
+}
+.navbar ul li{
+    list-style: none;
+    max-width: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    transition: .4s;
+   
+
+
+}
+
+.navbar ul li a:hover{
+    background:red;
+    border-radius: 2px;
+}
+
+.wrapper .center{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-40%,-40%);
+    font-family: sans-serif;
+    user-select: none;
+
+}
+.center{
+    padding-top: 100px;
+    padding-left:150px ;
+
+}
+.center h1{
+    color:white;
+    font-size: 80px;
+    font-weight: lighter;
+    width: 900px;
+    text-align: center;
+    
+
+}
+
+.center h3{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.center .buttons{
+    margin: 35px 275px;
+}
+.buttons button{
+    height: 40px ;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background-color:red;
+    border-radius: 25px;
+    border: 1px red;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+}
+.buttons .btn{
+    margin-left: 25px;
+
+}
+.buttons button:hover{
+    background: #cc0000;
+
+}
+
+
+.logo{
+    height:auto;
+    width: auto;
+    max-width: 60px;
+    max-height: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-bottom: -65px;
+    
+
+    
+
+}
